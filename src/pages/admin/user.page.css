@@ -1,0 +1,19 @@
+.admin_user_page {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.admin_user_page>.main {
+    width: 90%;
+}
+
+.admin_user_page>.main>.title>h1 {
+    text-align: center;
+}
+
+.admin_user_page>.main>.table {
+    margin-top: 20%;
+}

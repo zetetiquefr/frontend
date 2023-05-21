@@ -1,0 +1,12 @@
+.report_forum_table_parent table {
+    width: 100%;
+}
+
+.report_forum_table_parent {
+    margin: 5%;
+}
+
+.report_forum_table_parent thead td, .report_forum_table_parent tbody td {
+    border: 1px solid white;
+    padding: 5px;
+}

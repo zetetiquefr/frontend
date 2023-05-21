@@ -1,0 +1,49 @@
+/* .parent * {
+    border: 1px solid black;
+} */
+
+.parent {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.login_text {
+    text-align: center;
+}
+
+.input_div {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.input_div>* {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.form {
+    height: 80%;
+}
+
+.submit_btn {
+    width: 80%;
+    margin: auto;
+    position: relative;
+    bottom: 0;
+}
+
+.submit_btn>* {
+    width: 100%;
+}
+
+.signup_div {
+    height: 20%;
+    text-align: center;
+}
+
+.black {
+    color: black;
+}

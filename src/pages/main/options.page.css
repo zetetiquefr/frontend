@@ -1,0 +1,52 @@
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#root {
+    height: 100%;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.option_parent {
+    height: 100%;
+}
+
+.option_parent>header {
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding: 20px;
+    height: 10%;
+}
+
+.option_parent>.body {
+    display: flex;
+    flex-direction: row;
+    height: 90%;
+}
+
+.option_parent>.body>.main_column {
+    width: 50%;
+    margin-left: 25%;
+    background-color: #1a1a1a;
+    height: 93%;
+    border-radius: 25px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.option_parent>.body>.main_column>.main_column_title {
+    text-align: center;
+    padding: 10px;
+}
+
+.option_parent>.body>.main_column>.user_data {
+    padding: 10px;
+    height: 50%;
+}

@@ -1,0 +1,12 @@
+.report_chat_table_parent table {
+    width: 100%;
+}
+
+.report_chat_table_parent {
+    margin: 5%;
+}
+
+.report_chat_table_parent thead td, .report_chat_table_parent tbody td {
+    border: 1px solid white;
+    padding: 5px;
+}

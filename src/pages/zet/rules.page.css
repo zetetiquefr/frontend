@@ -1,0 +1,27 @@
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.zet_rule_page_parent > .body > .page_title {
+    text-align: center;
+    font-size: 42px;
+}
+
+.zet_rule_page_parent > .body {
+    width: 80%;
+    margin: auto;
+}
+
+.zet_rule_page_parent > .body > .zet_rules_component {
+    margin-top: 25px;
+    padding-bottom: 25px;
+}

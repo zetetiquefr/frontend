@@ -1,0 +1,77 @@
+/* * {
+    border: 1px solid red;
+} */
+
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.beer_logo {
+    width: 20%;
+    height: 20%;
+}
+
+
+.parent_div {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.logo_div {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: inline-block;
+    text-align: center;
+}
+
+.title {
+    color: white;
+    font-size: 5vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-style: italic;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.white {
+    color: white;
+}
+
+.description {
+    margin-top: 2%;
+    text-align: center;
+}
+
+.login_form {
+    width: 25%;
+    height: 50%;
+    margin: 0 auto;
+}
+
+.submit_btn {
+    padding-top: 10px;
+}

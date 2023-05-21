@@ -1,0 +1,60 @@
+.user_option_data_parent {
+    border: 1px solid black;
+    border-radius: 25px;
+    height: 100%;
+}
+
+.user_option_data_parent>.user_title {
+    text-align: center;
+    padding: 10px;
+}
+
+.user_option_data_parent li {
+    list-style-type: none;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.user_option_data_parent ul {
+    width: 66%;
+    margin-left: 16.5%;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.user_option_data_parent li:last-child {
+    border-bottom: none;
+}
+
+.user_option_data_parent .edit_btn {
+    color: white;
+}
+
+.user_option_data_parent li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.user_option_data_parent .user_data {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 25px;
+    padding-left: 20%;
+}
+
+.user_option_data_parent .user_data_title {
+    margin-right: 25px;
+}
+
+.user_option_data_parent .user_action i:hover {
+    cursor: pointer;
+}
+
+.user_option_data_parent .user_action {
+    padding-right: 20%;
+}

@@ -1,0 +1,32 @@
+.rules_component_parent {
+    width: 80%;
+    margin: auto;
+    border-top: 1px solid white;
+    padding-top: 25px;
+}
+
+.rules_component_parent>.rules {
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.rules_component_parent .has_next_rule {
+    border-bottom: 1px solid white;
+    margin: auto;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    width: 60%;
+}
+
+.rules_component_parent .rules .body .last_rule {
+    padding-top: 25px;
+}
+
+.rules_component_parent > .zet_title:hover {
+    cursor: pointer;
+}
+
+.rules_component_parent > .rule_title {
+    border-top: 1px solid white;
+    border: 1px solid green;
+}

@@ -1,0 +1,23 @@
+.user_table_parent {
+    color: white;
+    margin: 0px 0px 0px 0px;
+}
+
+.user_table_parent>.header>ul>li {
+    list-style-type: none;
+    display: inline-block;
+    border: 1px solid white;
+    width: 25%;
+    text-align: center;
+}
+
+.user_table_parent>.header>ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    margin: 0px;
+}
+
+.user_table_parent>.header {
+    padding: 0px;
+}

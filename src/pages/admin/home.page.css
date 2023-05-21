@@ -1,0 +1,40 @@
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+.admin_home_main_div {
+    width: 50%;
+}
+
+.admin_home_main_div > h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.admin_home_parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.admin_home_selector {
+    width: 50%;
+    margin: auto;
+}
+
+.admin_home_selector > ul {
+    text-align: center;
+}
+
+.admin_home_selector > ul > li {
+    list-style-type: none;
+    margin-bottom: 20px;
+}

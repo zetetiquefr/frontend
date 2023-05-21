@@ -1,0 +1,27 @@
+.create_forum_parent {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.create_forum_main {
+    width: 50%;
+}
+
+.create_forum_main > h1 {
+    text-align: center;
+}
+
+.create_forum_columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.create_forum_columns > .back_button {
+    margin: 20px;
+}
