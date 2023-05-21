@@ -5,17 +5,14 @@ export default class Api {
         this.url = 'http://localhost:3000/' + endpoint;
     }
 
-    async get(endpoint, token = undefined) {
-        let headers = {
-            'Content-Type': 'application/json'
-        };
-
-        if (token) {
-            headers['Authorization'] = token;
-        }
+    async get(endpoint, body, token = undefined) {
 
         const response = await axios.get(this.url + endpoint, {
-            headers: headers
+            data: body,
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': token ?? ""
+            }
         });
         return response.data;
     }
