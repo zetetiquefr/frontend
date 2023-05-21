@@ -13,7 +13,7 @@ class UserApi extends BaseApi {
         }
 
         try {
-            const response = await this.post("/create", user);
+            const response = await this.post("/", user);
 
             console.log(response);
             return true;
@@ -37,7 +37,7 @@ class UserApi extends BaseApi {
 
     async getByEmail(email, token) {
         try {
-            const response = await this.post("/", {
+            const response = await this.get("/", {
                 email: email
             }, token);
 
@@ -50,7 +50,7 @@ class UserApi extends BaseApi {
 
     async getUsers(token, page = 1, pageSize = 10) {
         try {
-            const res = await this.post(`/?$page=${page}&page_size=${pageSize}`, {}, token);
+            const res = await this.get(`/?$page=${page}&page_size=${pageSize}`, {}, token);
 
             return res.data;
         } catch (err) {
