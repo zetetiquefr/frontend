@@ -1,0 +1,12 @@
+[Unit]
+Description=ZetFR frontend
+After=network.target
+
+[Service]
+Type=simple
+EnvironmentFile=/home/fedora/ZetFR/frontend/.env
+User=fedora
+ExecStart=/usr/bin/npm --prefix /home/fedora/ZetFR/frontend start
+
+[Install]
+WantedBy=multi-user.target
