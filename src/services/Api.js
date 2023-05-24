@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export default class Api {
     constructor(endpoint) {
-        this.url = 'http://localhost:3000/' + endpoint;
+        this.url = `${process.env.REACT_APP_API_URL}/${endpoint}`
     }
 
     async get(endpoint, body, token = undefined) {
